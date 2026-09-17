@@ -1,0 +1,18 @@
+{
+  "_comment": "Schema used by the audio run this toolkit was built against. Replace with your own.",
+  "scope": {
+    "speaker_a":      ["boundary", "speech_clarity", "turn_type"],
+    "speaker_b":      ["boundary", "speech_clarity", "turn_type"],
+    "overlap":        ["boundary", "speech_clarity"],
+    "non_speech":     ["boundary"],
+    "unintelligible": ["boundary"]
+  },
+  "values": {
+    "boundary":       ["crisp", "overlapped", "tapered"],
+    "speech_clarity": ["clear", "degraded", "partly_unrecoverable"],
+    "turn_type":      ["substantive", "backchannel", "question"]
+  },
+  "speaker_labels":   ["speaker_a", "speaker_b"],
+  "exclusive_labels": ["non_speech"],
+  "coverage_labels":  ["speaker_a", "speaker_b", "non_speech", "unintelligible"]
+}
