@@ -4,3 +4,7 @@ __pycache__/
 *.wav
 *.json.local
 .DS_Store
+/export*.json
+/annotations*.xml
+/default.json
+/inputs/
