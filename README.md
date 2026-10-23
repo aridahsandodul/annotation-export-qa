@@ -62,7 +62,7 @@ Each exits non-zero when it finds something, so they drop into a pre-delivery sc
 
 ## Where this came from
 
-Built while auditing a four-modality annotation portfolio: ten images across five platforms, a 300-frame CVAT tracking run, 22 text documents, and twelve three-minute conversational audio clips. The portfolio itself is at [fish-annotation-portfolio](https://github.com/aridahsandodul/fish-annotation-portfolio).
+Built this while auditing a four-modality annotation portfolio. The image work covers 10 images across CVAT, Supervisely, Label Studio, and Labelbox, plus a 5-image subset of polygon and mask annotations in Roboflow. The portfolio also includes a 300-frame CVAT tracking run, 22 text documents, and 12 conversational audio clips totaling about 36 minutes.
 
 **All three checkers were regression-tested both ways**: against exports whose defects had already been found by hand, where they reproduce them exactly, and against the final clean exports, where they report nothing.
 
